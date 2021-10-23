@@ -1,0 +1,231 @@
+/*General Settings*/
+* {
+  box-sizing: content-box;
+  margin: 0px;
+}
+
+/*Layout*/
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgba(0, 119, 255, 0.932);
+}
+#header {
+  display: flex;
+  width: 75vw;
+  height: 30vh;
+  border-style: groove;
+  background-color: white;
+  flex-direction: row;
+  margin: 5vh;
+}
+#hamburger {
+  display: flex;
+  width: 15vw;
+  height: 40vh;
+  border-style: hidden;
+  flex-direction: column;
+  background-color: rgba(0, 119, 255, 0.932);
+  border-radius: 10px;
+}
+
+#content-container {
+  display: flex;
+  width: 60vw;
+  height: 50vh;
+  border-style: groove;
+  background-color: white;
+  flex-direction: row;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  margin-top: -5vh;
+}
+#additional-content {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 50vh;
+  border-style: groove;
+  background-color: white;
+  margin-top: -5vh;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 190vh;
+  height: 5vh;
+  border-style: groove;
+  background-color: white;
+  margin-left: 5vh;
+  margin-top: 2vh;
+}
+#input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 30vh;
+  border-style: groove;
+  margin: 0vw 0.5vw 0vw 0vw;
+}
+#video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 30vh;
+  border-style: groove;
+  margin: 0vw 0vw 0vw 0.5vw;
+}
+#hamburger > .rectengular-box {
+  width: 14vw;
+  height: 5vh;
+  border-style: hidden;
+  background-color: white;
+  margin: 1vh;
+}
+#phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15vw;
+  height: 49vh;
+  border-style: groove;
+  margin: 0.1vh;
+  border-radius: 7px;
+}
+#image {
+  display: flex;
+  flex-direction: column;
+  border-style: groove;
+  width: 50vw;
+  height: 49vh;
+  margin: 0.2vh;
+  justify-content: center;
+  align-items: center;
+}
+#button {
+  display: flex;
+  flex-direction: row;
+  width: 30vw;
+  height: 5vh;
+  border-style: groove;
+  margin: 1vh 0vh 1vh 0vh;
+}
+aside > .box {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 45vh;
+  border-style: groove;
+  margin: 1vh 0vh 1vh 0vh;
+}
+#bar {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgba(0, 119, 255, 0.932);
+  border-style: groove;
+  width: 125vw;
+  height: 4vh;
+  margin: 0.1vw 20vw 0.1vw 0.1vw;
+}
+#sm {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  height: 4vh;
+  background-color: rgba(0, 119, 255, 0.932);
+  border-style: groove;
+  margin-top: 0.1vw;
+  margin-right: 0.1vw;
+  margin-bottom: 0.1vw;
+}
+.email-box1 {
+  width: 25vw;
+  height: 3vh;
+  border-style: hidden;
+  background-color: rgba(0, 119, 255, 0.932);
+  margin: 0.5vh;
+  border-radius: 2px;
+}
+.email-box2 {
+  width: 25vw;
+  height: 1vh;
+  border-style: hidden;
+  background-color: rgba(0, 119, 255, 0.932);
+  margin: 0.5vh;
+  border-radius: 2px;
+}
+
+.email-box3 {
+  width: 10vw;
+  height: 5vh;
+  border-style: hidden;
+  background-color: rgba(0, 119, 255, 0.932);
+  margin: 0.5vh;
+  border-radius: 2px;
+}
+#circle {
+  display: flex;
+  border-style: groove;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(0, 119, 255, 0.932);
+}
+#circle > .triangle {
+  border-left: 20px solid white;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+#headset {
+  width: 5vw;
+  height: 0.1vh;
+  border-style: groove;
+  background-color: rgba(0, 119, 255, 0.932);
+  margin: 0.2vh;
+}
+#screen {
+  width: 14vw;
+  height: 40vh;
+  border-style: groove;
+  background-color: rgba(0, 119, 255, 0.932);
+  margin: 0.2vh;
+  border-radius: 10px;
+}
+#microphone {
+  width: 20px;
+  height: 20px;
+  border-color: rgba(0, 119, 255, 0.932);
+  background-color: white;
+  border-radius: 50%;
+  border-style: groove;
+  margin: 0.2vh;
+}
+.top-image {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 10vw;
+  height: 10vh;
+  border-style: groove;
+}
+#sun {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-style: groove;
+  background-color: rgba(0, 119, 255, 0.932);
+}
+.bottom-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
